@@ -1,0 +1,335 @@
+body{
+    background-image: url('Images\ and\ Videos/bgimgg.jpg');
+    background-size:100%;
+
+}
+html, body {
+    height: auto;
+}
+.nav{
+    height:60px;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;  
+}
+.logo{
+    position: fixed;
+    top:8px;
+    left:80px;
+    color:black;
+    font-size:xx-large;
+    font-family:'Forte';
+}
+.nav-contents a{
+    text-decoration: none;
+    color:black;
+    padding:50px;
+    font-size:large;
+    font-family: 'harrington';
+    font-weight:bold;
+}
+.nav-contents{
+    position: fixed;
+    left:300px;
+    top:20px;
+    height:10px;
+}
+.nav-contents a:hover{
+    text-decoration: underline;
+    width:fit-content;
+    height: 60px;
+    color:plum;
+    font-size: larger;
+}
+.icons{
+    font-size: large;
+    padding:20px;
+    position: fixed;
+    right:50px;
+    letter-spacing: 10px;
+}
+.icons i:hover{
+    font-size: larger;
+    color:plum;
+}
+.content h1{
+    font-size: 50px;
+    font-family:'Raleway'
+}
+.content h2{
+    font-size: 30px;
+    font-family:'sans serif'
+}
+.content{
+    /* background-color: azure; */
+    height:fit-content;
+    width:500px;
+    font-size: larger;
+    position: relative;
+    top:180px;
+    left:150px;
+    font-family: 'ink free';
+    font-weight: 900;
+    line-height:normal;
+}
+.button1{
+    height: 50px;
+    width: 200px;
+    padding:5px;
+    border-radius: 30px;
+    font-size: large;
+    background-color: rgb(10, 10, 10,0.8);
+    color:white;
+}
+.title{
+    height:55px;
+    width:500px;
+    background-color: rgb(250, 234, 248);
+    color:black;
+    position: absolute;
+    top:80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-weight:900;
+    position:relative;
+    left: 400px;
+}
+.video{
+    position: relative;
+    left:100px;
+    top:160px;
+    border:10px solid white;
+    margin: 0%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.heading{
+    position: fixed;
+    top:305px;
+    left:110px;
+    font-size: 35px;
+    background-color: rgba(255,255,255);
+    opacity: 1;
+    width: 450px;
+    text-align: center;
+    opacity: 0.7;
+    color: black;
+}
+.aboutusinfo{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border:10px solid white;
+    position: absolute ;
+    top:150px;
+    right:125px;
+    font-size: large;
+}
+.aboutusinfo p{
+    font-family: 'forte';
+    font-weight: 100;
+    opacity: 0.8;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    text-align: center;
+    background-color: white;
+    height:fit-content;
+    width:100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    justify-content: center;
+    align-content:space-around;
+    top: 100px;
+}
+.box{
+    height:400px;
+    width:300px;
+    background-color: white;
+    opacity: 0.8;
+    /* border:2px solid rgba(0, 0, 0, 0.5); */
+    /* border-radius: 8px; */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin: 30px;
+    padding:15px;
+    text-decoration: none;
+}
+.heading1{
+    height: 58px;
+    width:400px;
+    background-color:  rgb(250, 234, 248);
+    color:black;
+    z-index: 0;
+    position: relative;
+    top:70px;
+    left:500px;
+    text-align: center;
+    font-size: 45px;
+    font-family:'papyrus';
+    font-weight:900;
+}
+h4{
+    position: relative;
+    bottom:60px;
+    text-align: center;
+    font-size: xx-large;
+}
+h5{
+    position: relative;
+    bottom:90px;
+    text-align: center;
+    font-size: large;
+}
+.box:hover{
+    height:400px;
+    width:300px;
+    background-color: white;
+    opacity: 0.8;
+    border:2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin: 30px;
+    padding:15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.rh{
+    height: 58px;
+    width:800px;
+    background-color:  rgb(250, 234, 248);
+    color:black;
+    z-index: 0;
+    position: relative;
+    top:70px;
+    left:300px;
+    text-align: center;
+    font-size: 45px;
+    font-family:'papyrus';
+    font-weight:900;
+}
+.rc{
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top:150px;
+
+}
+.rb{
+    height: 250px;
+    width:1000px;
+    margin:10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    margin:20px;
+
+}
+.rb img{
+    border-radius: 50%; position: relative; top: 15px; left:10px;
+}
+.rb h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline;
+    position: relative;
+    left:20px;
+    top:-5px;
+}
+.rb p{
+    position: relative;
+    top:15px;
+    margin:10px;
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.rb i{
+    position: relative;
+    bottom:-40px; left:15px;
+    font-size:larger;
+    margin:5px;
+    padding: 10px;
+}
+.rb h3{
+    display: inline;
+    position:relative;
+    left:600px;
+    top:-5px;
+
+}
+.ch{
+    height: 58px;
+    width:400px;
+    /* background-color:  rgba(255,255,255,0.8); */
+    /* border:1px solid black; */
+    
+    color:black;
+    z-index: 0;
+    position: relative;
+    top:70px;
+    left:500px;
+    text-align: center;
+    font-size: 45px;
+    font-family:'papyrus';
+    font-weight:900;
+}
+.cu p a{
+    color:black;
+}
+.cu{
+    position: relative;
+    top:150px;
+    left:100px;
+    background-color: white;
+    height:200px;
+    width:500px;
+    font-size: x-large;
+    border-radius: 15px;
+    text-align: center;
+    padding:10px;
+    
+}
+.cu-box{
+    height:400px;
+    width:400px;
+    background-color: white;
+    position: absolute;
+    right:150px;
+    top:135px;
+    border-radius: 12px;
+    padding:20px;
+    margin:10px;
+}
+.cu-box input{
+    margin:15px;
+    padding: 15px;
+    border-radius: 8px;
+    width:250px;
+}
+.cu-box textarea{
+    margin:5px;
+    padding:20px;
+    border-radius: 8px;
+    width:250px;
+    position: relative;
+    top:5px;
+    border: 2px solid black;
+}
+.send{
+    width:380px;
+    background-color: antiquewhite;
+    position: relative;
+    left:60px;
+}
